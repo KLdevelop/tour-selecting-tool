@@ -20,6 +20,7 @@ export const LoginPage = () => {
           </li>
         </ul>
       </div>
+      {/* <Input type="text" /> */}
       <Outlet />
     </div>
   );
