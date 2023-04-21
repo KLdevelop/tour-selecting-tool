@@ -7,9 +7,10 @@
     "test": "test",
     "dev": "cross-env NODE_ENV=development webpack serve --config config/webpack.dev.ts",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.ts",
-    "lint": "eslint src/**/*.{js,jsx,ts,tsx,json}",
-    "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx,json}'",
-    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+    "lint": "eslint ./src/**/*.{js,jsx,ts,tsx,json}",
+    "lint:fix": "eslint --fix './src/**/*.{js,jsx,ts,tsx,json}'",
+    "format": "prettier --write './src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "prettier": "prettier \"src/**/*.+(js|jsx|ts|tsx|json|yml|yaml|md|mdx)\""
   },
   "author": "KLdevelop",
   "license": "ISC",
