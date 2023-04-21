@@ -1,6 +1,6 @@
 .inputBlockInp {
-  height: 60px;
-  width: 450px;
+  height: 40%;
+  width: 280px;
   background: none;
   border: none;
   scale: 50%;
@@ -14,6 +14,9 @@
   font-variant: all-small-caps;
   color: #d7d4c7;
   outline: none;
+  display: flex;
+  justify-content: center;
+  // text-align: justify;
   &::placeholder {
     color: #d7d4c7;
   }

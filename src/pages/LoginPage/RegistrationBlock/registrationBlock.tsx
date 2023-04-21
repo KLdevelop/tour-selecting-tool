@@ -4,6 +4,7 @@ import userIcon from 'src/assets/InputIcon/userIcon.png';
 import lockIcon from 'src/assets/InputIcon/lockIcon.png';
 import emailIcon from 'src/assets/InputIcon/emailIcon.png';
 import { Input } from 'src/components/Inp';
+import { Button } from 'src/components/Button';
 
 export const RegistrationBlock = () => {
   return (
@@ -26,6 +27,7 @@ export const RegistrationBlock = () => {
         </div>
         <Input placeholder="пароль" />
       </div>
+      <Button>Войти</Button>
     </div>
   );
 };

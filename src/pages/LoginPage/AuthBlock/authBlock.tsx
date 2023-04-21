@@ -4,6 +4,7 @@ import styles from './authBlock.module.scss';
 import userIcon from 'src/assets/InputIcon/userIcon.png';
 import lockIcon from 'src/assets/InputIcon/lockIcon.png';
 import { Input } from 'src/components/Inp';
+import { Button } from 'src/components/Button';
 
 export const AuthBlock = () => {
   return (
@@ -20,6 +21,7 @@ export const AuthBlock = () => {
         </div>
         <Input placeholder="пароль" />
       </div>
+      <Button>Войти</Button>
     </div>
   );
 };
