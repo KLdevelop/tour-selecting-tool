@@ -9,12 +9,12 @@ export const LoginPage = () => {
       <div className={styles.loginBlock}>
         <ul>
           <li>
-            <Link to="../authorization" relative="path">
+            <Link to="authorization" relative="route">
               Войти
             </Link>
           </li>
           <li>
-            <Link to="../registration" relative="path">
+            <Link to="registration" relative="route">
               Зарегистрироваться
             </Link>
           </li>
