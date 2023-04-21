@@ -4,9 +4,6 @@
   background: none;
   border: none;
   scale: 50%;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 46px;
   line-height: 42px;
   display: flex;
@@ -14,9 +11,7 @@
   font-variant: all-small-caps;
   color: #d7d4c7;
   outline: none;
-  display: flex;
-  justify-content: center;
-  // text-align: justify;
+
   &::placeholder {
     color: #d7d4c7;
   }
