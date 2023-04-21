@@ -1,9 +1,8 @@
 import React from 'react';
-// import { InputText } from 'src/components/Input/component/InputText/InputText';
-import styles from './authBlock.module.scss';
-import userIcon from 'src/assets/InputIcon/userIcon.png';
-import lockIcon from 'src/assets/InputIcon/lockIcon.png';
+import { lockIcon, userIcon } from 'src/assets/InputIcon';
 import { Input } from 'src/components/Inp';
+
+import styles from './authBlock.module.scss';
 
 export const AuthBlock = () => {
   return (
