@@ -1,5 +1,5 @@
 import React, { HTMLInputTypeAttribute, InputHTMLAttributes } from 'react';
-import { InputText } from './component/InputText';
+import { InputText } from './component';
 
 type Props = {
   type: HTMLInputTypeAttribute;
