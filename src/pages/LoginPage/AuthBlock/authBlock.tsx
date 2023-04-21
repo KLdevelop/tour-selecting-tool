@@ -1,17 +1,24 @@
 import React from 'react';
 // import { InputText } from 'src/components/Input/component/InputText/InputText';
 import styles from './authBlock.module.scss';
+import userIcon from 'src/assets/InputIcon/userIcon.png';
 import lockIcon from 'src/assets/InputIcon/lockIcon.png';
+import { Input } from 'src/components/Inp';
 
 export const AuthBlock = () => {
   return (
     <div className={styles.authBlock}>
-      <h1>Auth</h1>
+      <div className={styles.inputBlock}>
+        <div className={styles.inputBlockLogo}>
+          <img src={userIcon} />
+        </div>
+        <Input placeholder="никнейм" />
+      </div>
       <div className={styles.inputBlock}>
         <div className={styles.inputBlockLogo}>
           <img src={lockIcon} />
         </div>
-        <input type="text" className={styles.inputBlockInp} />
+        <Input placeholder="пароль" />
       </div>
     </div>
   );
