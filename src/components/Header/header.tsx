@@ -7,17 +7,19 @@ export const Header = () => {
   const navigate = useNavigate();
   return (
     <div className={styles.header}>
-      <span className={styles.tab}>Главная</span>
-      <span className={styles.tab}>Обзор</span>
-      <span className={styles.tab}>О нас</span>
+      <div className={styles.leftHeader}>
+        <span className={styles.tab}>Главная</span>
+        <span className={styles.tab}>Обзор</span>
+        <span className={styles.tab}>О нас</span>
+      </div>
       <span className={styles.title}>По пути</span>
-      <span className={styles.tab}>Рассчитать</span>
-      <span className={styles.tab} onClick={() => navigate('/login/authorization')}>
-        Войти
-      </span>
-      <span>
+      <div className={styles.rightHeader}>
+        <span className={styles.tab}>Рассчитать</span>
+        <span className={styles.tab} onClick={() => navigate('/login/authorization')}>
+          Войти
+        </span>
         <img src={mapIcon} alt="" className={styles.map} />
-      </span>
+      </div>
     </div>
   );
 };
