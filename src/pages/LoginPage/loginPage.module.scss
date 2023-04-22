@@ -1,16 +1,20 @@
 .loginPage {
   background-color: #fffced;
-  height: 565px;
-  width: 750px;
+  $width: 750px;
+  $height: 565px;
+  height: $height;
+  width: $width;
   border-radius: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 246px 98px rgba(45, 108, 56, 0.01),
     0px 138px 83px rgba(45, 108, 56, 0.05), 0px 62px 62px rgba(45, 108, 56, 0.09),
     0px 15px 34px rgba(45, 108, 56, 0.1), 0px 0px 0px rgba(45, 108, 56, 0.1);
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   margin: auto auto;
+  margin-top: calc(25% - $height / 2);
 
   padding: 15px 30px;
 }
