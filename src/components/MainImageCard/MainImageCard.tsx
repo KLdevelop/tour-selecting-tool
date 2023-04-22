@@ -9,10 +9,11 @@ interface MainImageCardProps extends InputHTMLAttributes<HTMLInputElement> {
 
 export const MainImageCard = (props: MainImageCardProps) => {
   return (
-    <div className={styles.mainImageCard}>
-      <img src={props.image} className={styles.mainImageCard_pic} />
-      <img src={NavIcon} className={styles.mainImageCard_navIcon} />
-      <p className={styles.mainImageCard_text}>Путешествие по fsdlkhflwflwehl</p>
+    <div className={styles.mainImageCard} style={{ backgroundImage: `url(${props.image})` }}>
+      <div className={styles.bottom}>
+        <img src={NavIcon} className={styles.mainImageCard_navIcon} />
+        <p className={styles.mainImageCard_text}>Путешествие по fsdlkhflwflwehl</p>
+      </div>
     </div>
   );
 };
