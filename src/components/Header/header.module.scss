@@ -1,0 +1,29 @@
+@use '/src/assets/fonts/Impact/Impact.module.scss';
+
+.header {
+  top: 0;
+  padding: 20px;
+  background: #fffced;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  color: black;
+
+  .tab {
+    font-size: 125%;
+  }
+
+  .title {
+    font-family: 'Impact', sans-serif;
+    margin: 0 20%;
+    text-transform: uppercase;
+    font-size: 250%;
+    letter-spacing: 0.1em;
+  }
+
+  .map {
+    height: 20%;
+  }
+}
