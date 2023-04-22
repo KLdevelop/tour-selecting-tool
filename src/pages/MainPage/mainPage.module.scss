@@ -17,6 +17,7 @@
         0px 138px 83px rgba(45, 108, 56, 0.05), 0px 62px 62px rgba(45, 108, 56, 0.09),
         0px 15px 34px rgba(45, 108, 56, 0.1), 0px 0px 0px rgba(45, 108, 56, 0.1);
       border-radius: 49px;
+
       padding: 38px 38px;
 
       .mainPageCardLeft {
@@ -34,7 +35,7 @@
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-        padding: 30px;
+        padding: 0 30px;
 
         .search_block {
           display: flex;
@@ -104,6 +105,16 @@
             div {
               margin: 0;
             }
+          }
+        }
+
+        .more {
+          text-decoration-line: underline;
+          color: #949987;
+          margin-left: auto;
+
+          &:hover {
+            cursor: pointer;
           }
         }
       }
