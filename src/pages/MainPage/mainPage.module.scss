@@ -1,48 +1,37 @@
 .mainPage {
-  // display: flex;/
-  // justify-content: center;
+  width: 100vw;
+  height: 100vh;
   .mainPageCard {
-    // scale: 95%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 35px;
+    width: 100%;
+    height: 70%;
     .mainPageCardDiv {
+      margin: 35px auto auto auto;
+      width: fit-content;
+      height: 100%;
       display: flex;
       justify-content: space-between;
-      // width: 1300px;
-      width: calc(100vw - 200px);
-      // height: 790px;
-      height: calc(100vh - 100px);
       background: #fffced;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 246px 98px rgba(45, 108, 56, 0.01),
         0px 138px 83px rgba(45, 108, 56, 0.05), 0px 62px 62px rgba(45, 108, 56, 0.09),
         0px 15px 34px rgba(45, 108, 56, 0.1), 0px 0px 0px rgba(45, 108, 56, 0.1);
       border-radius: 49px;
-      padding: 38px 10px;
+      padding: 38px 38px;
       .mainPageCardLeft {
-        // margin: 38px 0;
-        width: 50%;
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
+        height: 100%;
+        margin-right: auto;
         .picBG {
           width: 100%;
           height: 100%;
-          // width: 650px;
-          // height: 721px;
-          // width: calc(100%);
-          // height: ;
           object-fit: contain;
           object-position: 50% 50%;
         }
       }
       .mainPageCardRight {
-        width: 50%;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         flex-direction: column;
+        padding: 30px;
         .search_block {
           display: flex;
           flex-direction: column;
