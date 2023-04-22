@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import mainPagePic from 'src/assets/mainpage_pic.png';
 import { SearchInput } from 'src/components/SearchInput';
-import searchIcon from 'src/assets/search_icon.png';
+import { mainPagePic, searchIcon } from 'src/assets/Images';
 
 import styles from './mainPage.module.scss';
 
