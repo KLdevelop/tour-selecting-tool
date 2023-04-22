@@ -29,7 +29,6 @@
       .mainPageCardRight {
         display: flex;
         justify-content: space-between;
-        align-items: center;
         flex-direction: column;
         padding: 30px;
         .search_block {
@@ -43,12 +42,11 @@
           }
         }
         .category_block {
-          margin-top: 100px;
           width: 100%;
           .category_block_title {
             font-style: normal;
             font-weight: 600;
-            font-size: 40px;
+            font-size: 35px;
             line-height: 47px;
             text-align: start;
             color: #000000;
@@ -81,6 +79,11 @@
                 border-radius: 50px;
               }
             }
+          }
+          .imageCards {
+            display: flex;
+            align-items: center;
+            margin-top: 5%;
           }
         }
       }

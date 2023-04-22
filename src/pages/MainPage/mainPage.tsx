@@ -3,9 +3,9 @@ import { Header } from 'src/components';
 import mainPagePic from 'src/assets/mainpage_pic.png';
 import { SearchInput } from 'src/components/SearchInput';
 import searchIcon from 'src/assets/search_icon.png';
-
+import { MainImageCard } from 'src/components/MainImageCard';
+import picImageCard from 'src/assets/test.png';
 import styles from './mainPage.module.scss';
-
 export const MainPage = () => {
   const [activeCategory, setActiveCategory] = useState('Все');
   const category = [
@@ -53,6 +53,11 @@ export const MainPage = () => {
                     ></div>
                   </div>
                 ))}
+              </div>
+              <div className={styles.imageCards}>
+                <MainImageCard image={picImageCard} />
+                <MainImageCard image={picImageCard} />
+                <MainImageCard image={picImageCard} />
               </div>
             </div>
           </div>
