@@ -21,6 +21,7 @@ export const MainPage = () => {
       status: false,
     },
   ];
+
   return (
     <div className={styles.mainPage}>
       <div className={styles.mainPageCard}>
@@ -58,6 +59,7 @@ export const MainPage = () => {
                 <MainImageCard image={picImageCard} />
               </div>
             </div>
+            <p className={styles.more}>Показать ещё</p>
           </div>
         </div>
       </div>
