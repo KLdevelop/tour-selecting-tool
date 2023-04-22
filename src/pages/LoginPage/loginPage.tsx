@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink, Outlet, useNavigate } from 'react-router-dom';
-import outLogo from 'src/assets/krestik.png';
+import { crossIcon } from 'src/assets/Images';
 
 import styles from './loginPage.module.scss';
 
@@ -40,7 +40,7 @@ export const LoginPage = () => {
           </li>
         </ul>
         <img
-          src={outLogo}
+          src={crossIcon}
           onClick={() => {
             navigate('/');
           }}

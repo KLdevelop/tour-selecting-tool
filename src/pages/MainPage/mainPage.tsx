@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import { Header } from 'src/components';
-import mainPagePic from 'src/assets/mainpage_pic.png';
 import { SearchInput } from 'src/components/SearchInput';
-import searchIcon from 'src/assets/search_icon.png';
-import { MainImageCard } from 'src/components/MainImageCard';
 import picImageCard from 'src/assets/test.png';
+import { mainPagePic, searchIcon } from 'src/assets/Images';
+
 import styles from './mainPage.module.scss';
+
 export const MainPage = () => {
   const [activeCategory, setActiveCategory] = useState('Все');
   const category = [
@@ -24,7 +23,6 @@ export const MainPage = () => {
   ];
   return (
     <div className={styles.mainPage}>
-      <Header />
       <div className={styles.mainPageCard}>
         <div className={styles.mainPageCardDiv}>
           <div className={styles.mainPageCardLeft}>
