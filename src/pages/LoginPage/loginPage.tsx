@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
+import outLogo from 'src/assets/krestik.png';
 
 import styles from './loginPage.module.scss';
 
@@ -9,16 +10,25 @@ export const LoginPage = () => {
       <div className={styles.loginBlock}>
         <ul>
           <li>
-            <Link to="authorization" relative="route">
-              Войти
-            </Link>
+            <NavLink
+              to="authorization"
+              relative="route"
+              className={({ isActive }) => (isActive ? styles.active : styles.noactive)}
+            >
+              Вход
+            </NavLink>
           </li>
           <li>
-            <Link to="registration" relative="route">
-              Зарегистрироваться
-            </Link>
+            <NavLink
+              to="registration"
+              relative="route"
+              className={({ isActive }) => (isActive ? styles.active : styles.noactive)}
+            >
+              Регистрация
+            </NavLink>
           </li>
         </ul>
+        <img src={outLogo} />
       </div>
       <Outlet />
     </div>
