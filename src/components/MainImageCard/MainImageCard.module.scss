@@ -1,0 +1,31 @@
+.mainImageCard {
+  width: 163px;
+  height: 220px;
+  margin-right: 10px;
+  background-size: cover;
+  border-radius: 25px;
+  display: flex;
+  align-items: flex-end;
+
+  .bottom {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mainImageCard_text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 65%;
+    height: 1.2em;
+    white-space: nowrap;
+    color: #ffffff;
+  }
+
+  .mainImageCard_navIcon {
+    width: 10%;
+    height: 10%;
+    margin-right: 10%;
+  }
+}

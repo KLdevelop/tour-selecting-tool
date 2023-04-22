@@ -29,7 +29,6 @@
       .mainPageCardRight {
         display: flex;
         justify-content: space-between;
-        align-items: center;
         flex-direction: column;
         padding: 30px;
         .search_block {
@@ -43,35 +42,36 @@
           }
         }
         .category_block {
-          margin-top: 100px;
           width: 100%;
           .category_block_title {
+            display: flex;
+            justify-content: space-between;
             font-style: normal;
             font-weight: 600;
-            font-size: 40px;
+            font-size: 35px;
             line-height: 47px;
             text-align: start;
             color: #000000;
           }
           .categories {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             .categoriesBlock {
               display: flex;
               flex-direction: column;
               align-items: center;
+              justify-content: center;
+              min-width: 20%;
+              font-size: 1.5em;
+              line-height: 1.55em;
               .activedCategory {
                 font-style: normal;
                 font-weight: 500;
-                font-size: 32px;
-                line-height: 38px;
                 color: #a3de61;
               }
               .category {
                 font-style: normal;
                 font-weight: 500;
-                font-size: 32px;
-                line-height: 38px;
                 color: #000000;
               }
               .categoryStickActive {
@@ -80,6 +80,17 @@
                 background: #a3de61;
                 border-radius: 50px;
               }
+            }
+          }
+          .imageCards {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 5%;
+
+            div {
+              margin: 0;
             }
           }
         }

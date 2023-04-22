@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { SearchInput } from 'src/components/SearchInput';
+import picImageCard from 'src/assets/test.png';
 import { mainPagePic, searchIcon } from 'src/assets/Images';
 
 import styles from './mainPage.module.scss';
@@ -50,6 +51,11 @@ export const MainPage = () => {
                     ></div>
                   </div>
                 ))}
+              </div>
+              <div className={styles.imageCards}>
+                <MainImageCard image={picImageCard} />
+                <MainImageCard image={picImageCard} />
+                <MainImageCard image={picImageCard} />
               </div>
             </div>
           </div>

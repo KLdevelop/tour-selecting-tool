@@ -1,0 +1,1 @@
+export { MainImageCard } from './MainImageCard';
