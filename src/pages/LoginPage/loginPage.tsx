@@ -1,10 +1,11 @@
 import React from 'react';
-import { NavLink, Outlet } from 'react-router-dom';
+import { NavLink, Outlet, useNavigate } from 'react-router-dom';
 import outLogo from 'src/assets/krestik.png';
 
 import styles from './loginPage.module.scss';
 
 export const LoginPage = () => {
+  const navigate = useNavigate();
   return (
     <div className={styles.loginPage}>
       <div className={styles.loginBlock}>
@@ -28,7 +29,12 @@ export const LoginPage = () => {
             </NavLink>
           </li>
         </ul>
-        <img src={outLogo} />
+        <img
+          src={outLogo}
+          onClick={() => {
+            navigate('/');
+          }}
+        />
       </div>
       <Outlet />
     </div>
