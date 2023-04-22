@@ -8,14 +8,20 @@ export const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.leftHeader}>
-        <span className={styles.tab}>Главная</span>
-        <span className={styles.tab}>Обзор</span>
-        <span className={styles.tab}>О нас</span>
+        <span className={styles.tab} onClick={() => navigate('/')}>
+          Главная
+        </span>
+        <span className={styles.tab} onClick={() => navigate('/overview')}>
+          Обзор
+        </span>
+        <span className={styles.tab} onClick={() => navigate('/about')}>
+          О нас
+        </span>
       </div>
       <span className={styles.title}>По пути</span>
       <div className={styles.rightHeader}>
         <span className={styles.tab}>Рассчитать</span>
-        <span className={styles.tab} onClick={() => navigate('/login/authorization')}>
+        <span className={styles.tab} onClick={() => navigate('/login')}>
           Войти
         </span>
         <img src={mapIcon} alt="" className={styles.map} />

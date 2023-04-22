@@ -39,6 +39,9 @@
   .tab {
     font-size: 125%;
     color: #333a22;
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   .title {
