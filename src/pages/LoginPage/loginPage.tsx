@@ -17,7 +17,7 @@ export const LoginPage = () => {
               onClick={() => setActiveTab('auth')}
               to="authorization"
               relative="route"
-              className={({ isActive }) => (isActive ? styles.active : styles.noactive)}
+              className={activeTab === 'auth' ? styles.active : styles.noactive}
             >
               Вход
             </NavLink>
@@ -30,7 +30,7 @@ export const LoginPage = () => {
               onClick={() => setActiveTab('reg')}
               to="registration"
               relative="route"
-              className={({ isActive }) => (isActive ? styles.active : styles.noactive)}
+              className={activeTab === 'reg' ? styles.active : styles.noactive}
             >
               Регистрация
             </NavLink>
