@@ -35,30 +35,31 @@
       margin-left: 30px;
       list-style-type: none;
       li {
-        $color: #333a22;
+        color: #333a22;
         font-style: normal;
         font-weight: 400;
         font-size: 24px;
         line-height: 28px;
         margin-right: 40px;
-        // border-bottom: solid 5px #333a22;
-        // border-radius: 5px;
-
+        .auth_stick_active {
+          width: 100%;
+          height: 5px;
+          background: #333a22;
+          border-radius: 50px;
+        }
+        .auth-stick {
+          width: calc(100%);
+          height: 5px;
+          background: #949987;
+          border-radius: 50px;
+        }
         .noactive {
           text-decoration: none;
           color: #949987;
-          &::after {
-            border-bottom: solid 5px #949987;
-          }
         }
         .active {
           text-decoration: none;
           color: #333a22;
-          &::before {
-            width: 40px;
-            height: 2px;
-            background: #333a22;
-          }
         }
       }
     }
