@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SearchInput } from 'src/components/SearchInput';
+import { SearchInput, MainImageCard } from 'src/components';
 import picImageCard from 'src/assets/test.png';
 import { mainPagePic, searchIcon } from 'src/assets/Images';
 
