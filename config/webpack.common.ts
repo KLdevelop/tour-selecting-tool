@@ -54,8 +54,8 @@ const config: Configuration = {
         loader: 'source-map-loader',
       },
       {
-        test: /\.(eot|woff|woff2|ttf|svg|png|jpg|gif)$/,
-        loader: 'url-loader',
+        test: /\.(eot|woff|woff2|ttf|svg|png|jpg|gif)$/i,
+        type: 'asset/resource',
       },
     ],
   },
