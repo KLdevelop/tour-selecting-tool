@@ -1,0 +1,93 @@
+.productCard {
+  width: 345px;
+  height: 300px;
+  margin-bottom: 17%;
+  .productCard_img {
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding-top: 3%;
+    .productCard_tag {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 20%;
+      height: 10%;
+      margin-left: 3%;
+      background: #ffffff;
+      border-radius: 4px;
+      font-weight: 600;
+      font-size: 12px;
+    }
+  }
+
+  .productCard_info {
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background: #ffffff;
+    box-shadow: 1px 2px 45px rgba(153, 153, 169, 0.22);
+    padding: 4%;
+    div {
+      margin-bottom: 2%;
+    }
+    .productCard_location {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 17px;
+      letter-spacing: -0.26px;
+      color: #9999a9;
+    }
+    .productCard_title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: -0.28px;
+      color: #121212;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .productCard_description {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.7em;
+      line-height: 15px;
+      color: #76768d;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+    .productCard_price {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.2em;
+      line-height: 22px;
+      letter-spacing: -0.36px;
+      text-transform: uppercase;
+      color: #121212;
+    }
+    .productCard_date {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 75.47px;
+      height: 25px;
+      border: 1px solid #e4e4e8;
+      border-radius: 4px;
+
+      font-style: normal;
+      font-weight: 600;
+      font-size: 0.7em;
+      line-height: 17px;
+      letter-spacing: -0.24px;
+      color: #9999a9;
+    }
+  }
+}
