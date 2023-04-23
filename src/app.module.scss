@@ -6,9 +6,11 @@
 
 body {
   background: linear-gradient(60deg, #a3de61 13.4%, #f0cf29 86.6%);
+  background-size: cover;
 }
 
 html,
 body {
   margin: 0;
+  height: 100%;
 }

@@ -4,7 +4,11 @@ import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
 import store from './models/store';
 
-const AppElement = document.getElementById('app') || document.createElement('app');
+const AppElement = document.getElementById('app') || document.createElement('div');
+AppElement.style.display = 'flex';
+AppElement.style.flexDirection = 'column';
+AppElement.style.minHeight = '100%';
+AppElement.style.justifyContent = 'space-between';
 const root = createRoot(AppElement);
 
 root.render(

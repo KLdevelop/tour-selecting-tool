@@ -1,0 +1,48 @@
+@use '/src/assets/fonts/Inter/Inter.module.scss';
+
+.footer {
+  bottom: 0;
+  background: #fffced;
+  margin-top: 30px;
+  flex: 0 0 auto;
+  padding: 30px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+
+  .mainContent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .blockName {
+      font-size: 1.2em;
+    }
+
+    .contacts div {
+      font-weight: 600;
+    }
+
+    .tourists {
+      text-align: center;
+    }
+
+    .company {
+      text-align: right;
+    }
+
+    .contacts,
+    .tourists,
+    .company {
+      width: 30%;
+    }
+  }
+
+  .line {
+    width: 100%;
+    height: 0;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    margin: 40px 0 10px 0;
+  }
+}
