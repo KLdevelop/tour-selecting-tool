@@ -1,0 +1,11 @@
+@use '/src/assets/fonts/Inter/Inter.module.scss';
+
+.filtersBlock {
+  background: white;
+  width: 200px;
+  border-radius: 16px;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+}

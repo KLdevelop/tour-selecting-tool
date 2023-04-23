@@ -6,3 +6,4 @@ export { MainImageCard } from './MainImageCard';
 export { SearchInput } from './SearchInput';
 export { ProductCard } from './ProductCard';
 export { Footer } from './Footer';
+export { FiltersBlock } from './FiltersBlock';
