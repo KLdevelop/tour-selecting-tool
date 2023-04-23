@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navigate, Route, Routes } from 'react-router';
 import { BrowserRouter as Router, Outlet } from 'react-router-dom';
-import { Header } from './components';
+import { Header, Footer } from './components';
 import {
   AdminPage,
   LoginPage,
@@ -23,6 +23,7 @@ export const App = () => (
           <>
             <Header />
             <Outlet />
+            <Footer />
           </>
         }
       >
