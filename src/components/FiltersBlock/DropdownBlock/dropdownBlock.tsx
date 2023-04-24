@@ -20,7 +20,7 @@ export const DropdownBlock = (props: Props) => {
           className={show ? styles.dropdownUp : styles.dropdownArrow}
         />
       </div>
-      {show && props.children}
+      {show && <div className={styles.children}>{props.children}</div>}
     </div>
   );
 };
