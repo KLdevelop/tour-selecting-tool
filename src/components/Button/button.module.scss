@@ -6,6 +6,14 @@
   border-radius: 50px;
   border: none;
   color: #ffffff;
+  @media all and (max-width: 550px) {
+    display: block;
+    margin-left: 0;
+    width: 180px;
+    font-size: 1em;
+    min-height: 22%;
+  }
+
   // scale: 70%;
   &:hover {
     background: #a3de61;
