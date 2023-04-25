@@ -1,15 +1,13 @@
 .placeFilter {
   display: flex;
   align-items: center;
-  padding: 0 1%;
-  width: 250px;
-  height: 55px;
-  // background: #eeeef2;
-  // border-radius: 12px 0px 0px 12px;
+  padding: 5px 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+
   .placeFilter_img {
-    width: 16px;
     height: 16px;
   }
+
   .placeFilter_inp {
     outline: none;
     border: none;
@@ -19,6 +17,7 @@
     font-size: 14px;
     line-height: 18px;
     color: #9999a9;
+
     &::placeholder {
       font-style: normal;
       font-weight: 600;

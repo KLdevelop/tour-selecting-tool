@@ -1,14 +1,13 @@
 .filterHeader {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  height: 230px;
+  justify-content: space-around;
   background: #ffffff;
-  padding: 0 5%;
+  padding: 30px 50px;
   .filterHeader_cards {
-    width: 90%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     // overflow: hidden;
     // overflow-x: scroll;
     // box-sizing: content-box;
