@@ -10,3 +10,5 @@ export { PlaceFilter } from './FilterElem';
 export { DataPlaceFilter } from './FilterElem';
 export { TypeCard } from './FilterElem';
 export { FilterHeader } from './FilterHeader';
+export { Footer } from './Footer';
+export { FiltersBlock } from './FiltersBlock';
