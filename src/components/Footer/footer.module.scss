@@ -1,18 +1,21 @@
 @use '/src/assets/fonts/Inter/Inter.module.scss';
 
 .footer {
+  // width: 100vw;
   bottom: 0;
   background: #fffced;
-  margin-top: 30px;
+  // margin-top: 30px;
   flex: 0 0 auto;
   padding: 30px 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
   font-family: 'Inter', sans-serif;
 
   .mainContent {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
 
@@ -44,5 +47,24 @@
     height: 0;
     border: 1px solid rgba(0, 0, 0, 0.25);
     margin: 40px 0 10px 0;
+  }
+
+  @media (max-width: 500px) {
+    padding: 20px 40px;
+
+    .mainContent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+      .contacts,
+      .tourists,
+      .company {
+        width: 100%;
+        text-align: center;
+      }
+    }
   }
 }
