@@ -1,0 +1,25 @@
+.typeCard {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1%;
+  align-items: center;
+  width: 170px;
+  height: 94px;
+  background: #ffffff;
+  box-shadow: 1px 2px 45px rgba(153, 153, 169, 0.22);
+  border-radius: 12px;
+  margin-right: 3%;
+  .typeCard_name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 17px;
+    letter-spacing: -0.26px;
+    color: #121212;
+  }
+  .typeCard_img {
+    border-radius: 4px;
+    width: 56px;
+    height: 56px;
+  }
+}

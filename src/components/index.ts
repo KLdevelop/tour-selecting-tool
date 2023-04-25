@@ -5,3 +5,8 @@ export { Header } from './Header';
 export { MainImageCard } from './MainImageCard';
 export { SearchInput } from './SearchInput';
 export { ProductCard } from './ProductCard';
+export { DataFilter } from './FilterElem';
+export { PlaceFilter } from './FilterElem';
+export { DataPlaceFilter } from './FilterElem';
+export { TypeCard } from './FilterElem';
+export { FilterHeader } from './FilterHeader';

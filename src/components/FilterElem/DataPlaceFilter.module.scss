@@ -1,0 +1,13 @@
+.dataplaceFilter {
+  display: flex;
+  background: #eeeef2;
+  align-items: center;
+  border-radius: 12px;
+  width: 460px;
+  .dataplaceFilter_horiz_stick {
+    margin: 0 1%;
+    width: 1px;
+    height: 32px;
+    background: #d1d7e8;
+  }
+}
