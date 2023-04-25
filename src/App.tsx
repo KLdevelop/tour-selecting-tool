@@ -8,7 +8,6 @@ import {
   MainPage,
   AuthBlock,
   RegistrationBlock,
-  AboutPage,
   OverviewPage,
 } from './pages';
 
@@ -28,7 +27,6 @@ export const App = () => (
         }
       >
         <Route index element={<MainPage />} />
-        <Route path="about" element={<AboutPage />} />
         <Route path="overview" element={<OverviewPage />} />
       </Route>
       <Route path="/admin" element={<AdminPage />} />
