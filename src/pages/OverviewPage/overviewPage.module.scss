@@ -1,8 +1,39 @@
+@use '/src/assets/fonts/Inter/Inter.module.scss';
+
 .overviewPage {
-  .overviewPage_product {
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+
+  .mainBlock {
+    height: 100%;
+    width: 95%;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    // align-items: flex-start;
+
+    .filtersBlock {
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+    }
+
+    .cardsBlock {
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      background: #fffcedbf;
+
+      .findLabel {
+        color: #1f1f1f;
+        font-weight: 600;
+        letter-spacing: -0.26px;
+        padding: 0 12px;
+        margin-top: 0;
+      }
+
+      .overviewPage_product {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+    }
   }
 }

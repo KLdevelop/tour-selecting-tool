@@ -10,7 +10,7 @@ export const PlaceFilter = () => {
   return (
     <div className={styles.placeFilter}>
       <input type="text" placeholder="Куда вы хотите?" className={styles.placeFilter_inp} />
-      <img src={searchFilter} className={styles.placeFilter_img} />
+      <img src={searchFilter} alt="" className={styles.placeFilter_img} />
     </div>
   );
 };
