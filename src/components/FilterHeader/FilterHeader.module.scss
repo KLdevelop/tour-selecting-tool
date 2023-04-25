@@ -6,11 +6,7 @@
   padding: 30px 50px;
   .filterHeader_cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    // overflow: hidden;
-    // overflow-x: scroll;
-    // box-sizing: content-box;
-    // scrollbar-color: none;
   }
 }

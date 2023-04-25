@@ -8,6 +8,10 @@
     background-size: cover;
     width: 20px;
     height: 20px;
+    @media all and (max-width: 440px) {
+      width: 10px;
+      height: 10px;
+    }
   }
 
   .dataFilter_inp {
@@ -23,5 +27,9 @@
     display: flex;
     align-items: center;
     color: #9999a9;
+    @media all and (max-width: 530px) {
+      width: 90px;
+      font-size: 10px;
+    }
   }
 }

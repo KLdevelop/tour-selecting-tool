@@ -13,6 +13,9 @@
       display: flex;
       flex-direction: column;
       padding: 30px;
+      @media all and (max-width: 834px) {
+        display: none;
+      }
     }
 
     .cardsBlock {
@@ -31,7 +34,7 @@
 
       .overviewPage_product {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-wrap: wrap;
       }
     }
