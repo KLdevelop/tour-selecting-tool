@@ -1,14 +1,13 @@
 import React from 'react';
 import { Navigate, Route, Routes } from 'react-router';
 import { BrowserRouter as Router, Outlet } from 'react-router-dom';
-import { Header, Footer, FiltersBlock } from './components';
+import { Header, Footer } from './components';
 import {
   AdminPage,
   LoginPage,
   MainPage,
   AuthBlock,
   RegistrationBlock,
-  AboutPage,
   OverviewPage,
 } from './pages';
 
@@ -28,9 +27,7 @@ export const App = () => (
         }
       >
         <Route index element={<MainPage />} />
-        <Route path="about" element={<AboutPage />} />
         <Route path="overview" element={<OverviewPage />} />
-        <Route path="dropdown" element={<FiltersBlock />} />
       </Route>
       <Route path="/admin" element={<AdminPage />} />
       <Route path="/login" element={<LoginPage />}>
