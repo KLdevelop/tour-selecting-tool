@@ -6,4 +6,7 @@
   align-items: center;
   justify-content: space-around;
   margin: auto auto;
+  @media all and (max-width: 820px) {
+    width: 70%;
+  }
 }
