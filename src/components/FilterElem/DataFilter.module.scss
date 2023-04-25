@@ -1,0 +1,28 @@
+.dataFilter {
+  padding-right: 1%;
+  // background: #eeeef2;
+  // border-radius: 0px 12px 12px 0px;
+  input[type='date']::-webkit-calendar-picker-indicator {
+    background-image: url('../../assets/filterIcon/datapicker.svg ');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+  }
+
+  .dataFilter_inp {
+    width: 230px;
+    outline: none;
+    background: transparent;
+    border: none;
+    height: 55px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #9999a9;
+  }
+}

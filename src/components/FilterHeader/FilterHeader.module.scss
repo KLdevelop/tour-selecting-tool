@@ -1,0 +1,17 @@
+.filterHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 230px;
+  background: #ffffff;
+  padding: 0 5%;
+  .filterHeader_cards {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    // overflow: hidden;
+    // overflow-x: scroll;
+    // box-sizing: content-box;
+    // scrollbar-color: none;
+  }
+}
