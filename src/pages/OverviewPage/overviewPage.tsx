@@ -5,15 +5,7 @@ import styles from './overviewPage.module.scss';
 
 export const OverviewPage = () => {
   const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
-  // let test = {
-  //   image: 'string',
-  //   tag: 'string',
-  //   location: 'string',
-  //   title: 'string',
-  //   description: 'string',
-  //   price: 0,
-  //   date: 'string',
-  // };
+
   return (
     <div className={styles.overviewPage}>
       <FilterHeader />
@@ -22,9 +14,9 @@ export const OverviewPage = () => {
           <FiltersBlock />
         </div>
         <div className={styles.cardsBlock}>
-          <p className={styles.findLabel}>Найдено 12 туров</p>
+          <p className={styles.findLabel}>Найдено {arr.length} туров</p>
           <div className={styles.overviewPage_product}>
-            {arr.map((i) => (
+            {arr.map((_, i) => (
               <ProductCard
                 key={i}
                 image={alpPic}

@@ -5,7 +5,16 @@
   border-radius: 12px;
   width: 460px;
   margin-bottom: 20px;
-
+  @media all and (max-width: 530px) {
+    width: 320px;
+    // display: none;
+  }
+  @media all and (max-width: 440px) {
+    width: 240px;
+  }
+  @media all and (max-width: 300px) {
+    width: 200px;
+  }
   .dataplaceFilter_horiz_stick {
     height: 32px;
     background: #d1d7e8;

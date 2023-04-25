@@ -6,6 +6,9 @@
 
   .placeFilter_img {
     height: 16px;
+    @media all and (max-width: 440px) {
+      height: 10px;
+    }
   }
 
   .placeFilter_inp {
@@ -24,6 +27,13 @@
       font-size: 14px;
       line-height: 18px;
       color: #9999a9;
+      @media all and (max-width: 440px) {
+        font-size: 10px;
+      }
+    }
+    @media all and (max-width: 440px) {
+      max-width: 90px;
+      font-size: 10px;
     }
   }
 }
